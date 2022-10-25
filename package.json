@@ -1,0 +1,19 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "src/classifier.js",
+  "author": "Bond <bonda@decagon.institute>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "terminal": "node src/analysis.js",
+    "report": "node src/report.js"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.15",
+    "jest": "24.8.0",
+    "mockdate": "2.0.3"
+  },
+  "repository": "https://github.com/decadevs/week-3-node-sq012-KennethJT1.git"
+}
